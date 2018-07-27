@@ -35,30 +35,32 @@ cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/models/MT
 ```
 
 ## Learn the system
-1.  READY-TO-USE MODEL:
+*  READY-TO-USE MODEL:
 
-- Our ready-to-use best model:  /home/proj/speechrecognition/TRANSFER_LEARNING_AST/models2/best.index
+ Our ready-to-use best model:  
+ ```
+ /home/proj/speechrecognition/TRANSFER_LEARNING_AST/models2/best.index
+```
+* Other checkpoints and log files: 
 
-- Other checkpoints and log files: 
-
------ First 120000 steps:
-
+--- First 120000 steps:
+```
 cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/models
-
------ Next steps:
-
+```
+--- Next steps:
+```
 /home/proj/speechrecognition/TRANSFER_LEARNING_AST/models2/
+```
+* Configuration files:
 
-- Configuration files:
-
------ First 120000 steps:
-
+--- First 120000 steps:
+```
 cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/transfer_1.yaml
-
------ Next steps:
-
+```
+--- Next steps:
+```
 cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/transfer_2.yaml
-
+```
 2. TRAIN YOUR OWN MODEL:
 
 - Create new output folder, change directions/hyperparameters/checkpoints in transfer_1.yaml configuration file.
@@ -72,7 +74,7 @@ cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/transfer_2.yaml
 
 ## Other possobilities:
 
-1. Input Data produced by our group:
+* Input Data produced by our group:
 - tar audio files:
 ```
 cluster/home/proj/speechrecognition/archiv
@@ -81,7 +83,7 @@ cluster/home/proj/speechrecognition/archiv
 ```
 cluster/home/students/chernenko/speech_recognition/features
 ```
-2. To generate your own input Data with scripts of our group:
+* To generate your own input Data with scripts of our group:
 cluster/home/proj/speechrecognition/seq2seq
 
 ```
@@ -91,7 +93,7 @@ cluster/home/proj/speechrecognition/seq2seq
 4_extract.py  (original script - seq2seq/scripts/speech/extract.py)
 ```
 
-Use other versions of pre-trained ASR and MT Models (new ones):
+* Use other versions of pre-trained ASR and MT Models (new ones):
 
 ```
 cluster/home/proj/speech_data_models/models/
