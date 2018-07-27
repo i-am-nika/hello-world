@@ -35,9 +35,9 @@ cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/models/MT
 ```
 
 ## Learn the system
-*  READY-TO-USE MODEL:
+*  **READY-TO-USE MODEL:
 
- Our ready-to-use best model:  
+ **Our ready-to-use best model:  
  ```
  /home/proj/speechrecognition/TRANSFER_LEARNING_AST/models2/best.index
 ```
@@ -61,7 +61,7 @@ cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/transfer_1.yaml
 ```
 cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/transfer_2.yaml
 ```
-2. TRAIN YOUR OWN MODEL:
+* **TRAIN YOUR OWN MODEL:
 
 - Create new output folder, change directions/hyperparameters/checkpoints in transfer_1.yaml configuration file.
 
@@ -75,11 +75,11 @@ cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/transfer_2.yaml
 ## Other possobilities:
 
 * Input Data produced by our group:
-- tar audio files:
+tar audio files:
 ```
 cluster/home/proj/speechrecognition/archiv
 ```
-- npz, vocab und spain textfiles:
+npz, vocab und spain textfiles:
 ```
 cluster/home/students/chernenko/speech_recognition/features
 ```
