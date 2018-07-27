@@ -1,9 +1,11 @@
 # AST with Transfer Learning
-cluster/home/proj/speechrecognition/seq2seq
-
+Model direction: 
+```
+cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/
+```
 Attention-based sequence to sequence AST System. The model uses ASR and MT Systems for initialization (Transfer Learning).
 
-The project is based on the code of * [Alexandre Bérard] https://github.com/eske/seq2seq)
+The project is based on the code of Alexandre Bérard https://github.com/eske/seq2seq
 
 ## Getting Started
 
@@ -14,18 +16,19 @@ The project is based on the code of * [Alexandre Bérard] https://github.com/esk
 
 ### Input Data
 
-Used Input Data (given):
+* Used Input Data (given):
 
 ```
 cluster/home/proj/speech_data_models/data
 ```
 
-Used Pre-trained ASR and MT Models (given)
+* Used pre-trained ASR and MT Models (given)
 
 ASR ("best-276000" was used for initialisation): 
+
 ```
 cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/models/ASR
-
+```
 MT ("best-98000" was used for initialisation): 
 ```
 cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/models/MT
