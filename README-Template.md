@@ -37,7 +37,7 @@ cluster/home/proj/speechrecognition/TRANSFER_LEARNING_AST/models/MT
 ## Learn the system
 ## READY-TO-USE MODEL:
 
- **Our ready-to-use best model:  
+ **Our ready-to-use best model:** 
  ```
  /home/proj/speechrecognition/TRANSFER_LEARNING_AST/models2/best.index
 ```
